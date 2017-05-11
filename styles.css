@@ -1,0 +1,82 @@
+.activity.ildvideoslider.modtype_ildvideoslider .no-overflow, .editing .activity.ildvideoslider.modtype_ildvideoslider .no-overflow {
+    width: 70%;
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    overflow: visible;
+}
+
+.video-slides {
+    position: relative;
+}
+
+.video-control {
+    height: 59px;
+    width: 100%;
+}
+
+.video-prev, .video-next {
+    width: 10%;
+    height: 100%;
+    background-color: #f0f0f0;
+    float: left;
+    cursor: pointer;
+}
+
+.video-prev p, .video-next p {
+    text-align: center;
+    line-height: 54px;
+    font-size: 3em;
+}
+
+.video-prev p:hover, .video-next p:hover {
+    color: #D12121;
+    cursor: pointer;
+}
+
+.video-titles-outter {
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 100%;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.video-titles-inner {
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    left: 0;
+}
+
+/*
+.video-slide {
+    display: none;
+}
+*/
+
+.video-title-area {
+    width: auto !important;
+    float: left;
+    cursor: pointer;
+}
+
+.video-title-area.clicked, .video-title-area:hover {
+    background-color: #D12121;
+}
+
+.video-title-area.clicked p, .video-title-area:hover p {
+    color: #fff;
+}
+
+.video-title {
+    text-align: center;
+    padding: 3px 20px 0;
+}
+
+.activity.ildvideoslider.modtype_ildvideoslider img, .editing .activity.ildvideoslider.modtype_ildvideoslider img {
+    width: 22px;
+}
+
